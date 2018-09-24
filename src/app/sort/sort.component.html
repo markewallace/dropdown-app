@@ -1,0 +1,13 @@
+<div class="sort-container">
+    <label
+      class="bx--label">
+      Sort by:
+    </label>
+    <ibm-dropdown
+			placeholder="Select"
+			[disabled]="disabled"
+			(selected)="onSelected($event)"
+			(onClose)="onClose($event)">
+			<ibm-dropdown-list [items]="items"></ibm-dropdown-list>
+		</ibm-dropdown>
+  </div>

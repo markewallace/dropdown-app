@@ -1,0 +1,18 @@
+@import '~carbon-components/scss/globals/scss/spacing';
+
+:host /deep/ .sort-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+
+  label.bx--label {
+    padding-left: $spacing-md;
+    padding-right: $spacing-md;
+  }
+
+  div.bx--list-box {
+    width: 20rem;
+    background-color: white;
+  }
+}
